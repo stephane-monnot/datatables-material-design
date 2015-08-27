@@ -10,7 +10,7 @@
     "./dist/css/dataTables.materialdesign.css",
     "./dist/css/dataTables.materialdesign.min.css"
   ],
-  "version": "1.0.0",
+  "version": "0.1.0",
   "keywords": [
     "datatable",
     "datatables",
