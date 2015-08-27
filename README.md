@@ -1,7 +1,7 @@
-datatables-material-design
-==============
+# datatables-material-design
+Theme material design for datatables
 
-Build
+## Build
 ----------------------------
 
 ```
@@ -13,5 +13,5 @@ bower install
 ```
 
 ```
-grunt default
+grunt
 ```
