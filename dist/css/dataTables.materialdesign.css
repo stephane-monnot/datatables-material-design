@@ -169,43 +169,46 @@ div.dataTables_wrapper div.dataTables_filter input {
 div.dataTables_wrapper div.dataTables_info {
   padding-top: 8px;
   white-space: nowrap;
+  font-weight: bold;
 }
 
-/* line 57, ../../src/scss/dataTables.materialdesign.scss */
+/* line 58, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_wrapper div.dataTables_paginate {
   margin: 0;
   white-space: nowrap;
   text-align: right;
 }
 
-/* line 63, ../../src/scss/dataTables.materialdesign.scss */
+/* line 64, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_wrapper div.dataTables_paginate ul.md-pagination {
   margin: 2px 0;
   white-space: nowrap;
   display: inline-block;
 }
-/* line 68, ../../src/scss/dataTables.materialdesign.scss */
+/* line 69, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_wrapper div.dataTables_paginate ul.md-pagination li {
   display: inline;
 }
-/* line 71, ../../src/scss/dataTables.materialdesign.scss */
-div.dataTables_wrapper div.dataTables_paginate ul.md-pagination li a {
+/* line 72, ../../src/scss/dataTables.materialdesign.scss */
+div.dataTables_wrapper div.dataTables_paginate ul.md-pagination li a.btn {
   padding: 6px 12px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-/* line 84, ../../src/scss/dataTables.materialdesign.scss */
+/* line 82, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead > tr > th,
 table.dataTable thead > tr > td {
   padding-right: 30px;
 }
 
-/* line 89, ../../src/scss/dataTables.materialdesign.scss */
+/* line 87, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead > tr > th:active,
 table.dataTable thead > tr > td:active {
   outline: none;
 }
 
-/* line 94, ../../src/scss/dataTables.materialdesign.scss */
+/* line 92, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead .sorting,
 table.dataTable thead .sorting_asc,
 table.dataTable thead .sorting_desc,
@@ -215,7 +218,7 @@ table.dataTable thead .sorting_desc_disabled {
   position: relative;
 }
 
-/* line 103, ../../src/scss/dataTables.materialdesign.scss */
+/* line 101, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead .sorting:after,
 table.dataTable thead .sorting_asc:after,
 table.dataTable thead .sorting_desc:after,
@@ -229,64 +232,64 @@ table.dataTable thead .sorting_desc_disabled:after {
   opacity: 0.5;
 }
 
-/* line 116, ../../src/scss/dataTables.materialdesign.scss */
+/* line 114, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead .sorting:after {
   opacity: 0.2;
   content: "\e150";
   /* sort */
 }
 
-/* line 122, ../../src/scss/dataTables.materialdesign.scss */
+/* line 120, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead .sorting_asc:after {
   content: "\e155";
   /* sort-by-attributes */
 }
 
-/* line 127, ../../src/scss/dataTables.materialdesign.scss */
+/* line 125, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead .sorting_desc:after {
   content: "\e156";
   /* sort-by-attributes-alt */
 }
 
-/* line 132, ../../src/scss/dataTables.materialdesign.scss */
+/* line 130, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable thead .sorting_asc_disabled:after,
 table.dataTable thead .sorting_desc_disabled:after {
   color: #eee;
 }
 
-/* line 137, ../../src/scss/dataTables.materialdesign.scss */
+/* line 135, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_scrollHead table.dataTable {
   margin-bottom: 0 !important;
 }
 
-/* line 141, ../../src/scss/dataTables.materialdesign.scss */
+/* line 139, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_scrollBody table {
   border-top: none;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
-/* line 147, ../../src/scss/dataTables.materialdesign.scss */
+/* line 145, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_scrollBody table thead .sorting:after,
 div.dataTables_scrollBody table thead .sorting_asc:after,
 div.dataTables_scrollBody table thead .sorting_desc:after {
   display: none;
 }
 
-/* line 153, ../../src/scss/dataTables.materialdesign.scss */
+/* line 151, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_scrollBody table tbody tr:first-child th,
 div.dataTables_scrollBody table tbody tr:first-child td {
   border-top: none;
 }
 
-/* line 158, ../../src/scss/dataTables.materialdesign.scss */
+/* line 156, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_scrollFoot table {
   margin-top: 0 !important;
   border-top: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 164, ../../src/scss/dataTables.materialdesign.scss */
+  /* line 162, ../../src/scss/dataTables.materialdesign.scss */
   div.dataTables_wrapper div.dataTables_length,
   div.dataTables_wrapper div.dataTables_filter,
   div.dataTables_wrapper div.dataTables_info,
@@ -294,12 +297,12 @@ div.dataTables_scrollFoot table {
     text-align: center;
   }
 }
-/* line 172, ../../src/scss/dataTables.materialdesign.scss */
+/* line 170, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable.table-condensed > thead > tr > th {
   padding-right: 20px;
 }
 
-/* line 176, ../../src/scss/dataTables.materialdesign.scss */
+/* line 174, ../../src/scss/dataTables.materialdesign.scss */
 table.dataTable.table-condensed .sorting:after,
 table.dataTable.table-condensed .sorting_asc:after,
 table.dataTable.table-condensed .sorting_desc:after {
@@ -307,36 +310,49 @@ table.dataTable.table-condensed .sorting_desc:after {
   right: 6px;
 }
 
-/* line 183, ../../src/scss/dataTables.materialdesign.scss */
+/* line 181, ../../src/scss/dataTables.materialdesign.scss */
 table.table-bordered.dataTable {
   border-collapse: separate !important;
 }
 
-/* line 187, ../../src/scss/dataTables.materialdesign.scss */
+/* line 185, ../../src/scss/dataTables.materialdesign.scss */
 table.table-bordered.dataTable th,
 table.table-bordered.dataTable td {
   border-left-width: 0;
 }
 
-/* line 192, ../../src/scss/dataTables.materialdesign.scss */
+/* line 190, ../../src/scss/dataTables.materialdesign.scss */
 table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child,
 table.table-bordered.dataTable td:last-child,
 table.table-bordered.dataTable td:last-child {
   border-right-width: 0;
 }
 
-/* line 198, ../../src/scss/dataTables.materialdesign.scss */
+/* line 196, ../../src/scss/dataTables.materialdesign.scss */
 table.table-bordered.dataTable tbody th,
 table.table-bordered.dataTable tbody td {
   border-bottom-width: 0;
 }
 
-/* line 203, ../../src/scss/dataTables.materialdesign.scss */
+/* line 201, ../../src/scss/dataTables.materialdesign.scss */
 div.dataTables_scrollHead table.table-bordered {
   border-bottom-width: 0;
 }
 
-/* line 206, ../../src/scss/dataTables.materialdesign.scss */
+/* line 205, ../../src/scss/dataTables.materialdesign.scss */
 .dt-materialdesign tbody > tr:first-child > td {
   border-top: none;
+}
+
+/* line 209, ../../src/scss/dataTables.materialdesign.scss */
+.dt-materialdesign .row-footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 214, ../../src/scss/dataTables.materialdesign.scss */
+.dt-materialdesign .row-footer > div {
+  border-top: 2px solid #ddd;
+  padding-right: 0;
+  padding-left: 0;
 }
