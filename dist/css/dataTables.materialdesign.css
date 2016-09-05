@@ -1,4 +1,4 @@
-/* line 8, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 8, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar-wrapper {
   position: relative;
   overflow: hidden;
@@ -6,14 +6,14 @@
   height: 8px;
 }
 
-/* line 16, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 16, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar-wrapper.youtube-loadingbar-wrapper-fixed {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-/* line 22, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 22, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar {
   position: absolute;
   z-index: 2147483647;
@@ -31,14 +31,14 @@
   transition: all 500ms ease-in-out;
 }
 
-/* line 34, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 34, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar.waiting dd, .youtube-loadingbar.waiting dt {
   -moz-animation: pulse 2s ease-out 0s infinite;
   -webkit-animation: pulse 2s ease-out 0s infinite;
   animation: pulse 2s ease-out 0s infinite;
 }
 
-/* line 38, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 38, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar dt {
   opacity: .6;
   width: 180px;
@@ -46,7 +46,7 @@
   clip: rect(-6px, 90px, 14px, -6px);
 }
 
-/* line 45, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 45, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar dd {
   opacity: .6;
   width: 20px;
@@ -54,7 +54,7 @@
   clip: rect(-6px, 22px, 14px, 10px);
 }
 
-/* line 52, ../../bower_components/youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
+/* line 52, ../../../youtube-loading-bar/src/scss/youtubeLoadingBar.scss */
 .youtube-loadingbar dd, .youtube-loadingbar dt {
   position: absolute;
   top: 0;
